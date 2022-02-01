@@ -1,0 +1,29 @@
+{
+  "name": "monza-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html --public-url /monza-project/",
+    "deploy": "gh-pages -d dist",
+    "predeploy": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mykolahist/monza-project.git"
+  },
+  "keywords": [],
+  "author": "Mykola Frich <frichmykola@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mykolahist/monza-project/issues"
+  },
+  "homepage": "https://Mykolahist/github.io/monza-project",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.2.1",
+    "gh-pages": "^3.2.3",
+    "parcel": "^2.2.1",
+    "parcel-plugin-nuke-dist": "^1.0.1"
+  }
+}
