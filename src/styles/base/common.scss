@@ -13,7 +13,7 @@ body {
   padding: 0;
   font-family: 'Noto Sans', sans-serif;
   color: $Color-primary-100;
-  background-color: $Color-background;
+  background-color: $Color-primary-200;
 }
 
 img {
@@ -26,6 +26,7 @@ h1,
 h2,
 h3,
 h4,
+h5,
 p,
 span,
 button {

@@ -66,410 +66,470 @@
   <main>
     <div class="container">
       <h2 class="title-main">CURRENT OFFERS</h2>
-      <div>
-        <ul>
-          <li>
-            <select name="" id="">
+      <div class="filter-section">
+        <ul class="select-list">
+          <li class="select-item">
+            <select name="" id="" class="dropdown">
               <option value="value1">Year</option>
+              <option value="value2">Honda</option>
+              <option value="value3">Kia</option>
+              <option value="value4">Toyota</option>
+              <option value="value5">Volkswagen</option>
+              <option value="value6">Toyota</option>
+              <option value="value7">Volkswagen</option>
+              <option value="value7">Honda</option>
             </select>
           </li>
-          <li>
-            <select name="" id="">
+          <li class="select-item">
+            <select name="" id="" class="dropdown">
               <option value="value1">Make</option>
+              <option value="value2">Honda</option>
+              <option value="value3">Kia</option>
+              <option value="value4">Toyota</option>
+              <option value="value5">Volkswagen</option>
+              <option value="value6">Toyota</option>
+              <option value="value7">Volkswagen</option>
+              <option value="value7">Honda</option>
             </select>
           </li>
-          <li>
-            <select name="" id="">
+          <li class="select-item">
+            <select name="" id="" class="dropdown">
               <option value="value1">Model</option>
+              <option value="value2">Honda</option>
+              <option value="value3">Kia</option>
+              <option value="value4">Toyota</option>
+              <option value="value5">Volkswagen</option>
+              <option value="value6">Toyota</option>
+              <option value="value7">Volkswagen</option>
+              <option value="value7">Honda</option>
             </select>
           </li>
-          <li>
-            <select name="" id="">
+          <li class="select-item">
+            <select name="" id="" class="dropdown">
               <option value="value1">Trim</option>
+              <option value="value2">Honda</option>
+              <option value="value3">Kia</option>
+              <option value="value4">Toyota</option>
+              <option value="value5">Volkswagen</option>
+              <option value="value6">Toyota</option>
+              <option value="value7">Volkswagen</option>
+              <option value="value7">Honda</option>
             </select>
           </li>
-          <li>
-            <select name="" id="">
+          <li class="select-item">
+            <select name="" id="" class="dropdown">
               <option value="value1">Mileage</option>
+              <option value="value2">Honda</option>
+              <option value="value3">Kia</option>
+              <option value="value4">Toyota</option>
+              <option value="value5">Volkswagen</option>
+              <option value="value6">Toyota</option>
+              <option value="value7">Volkswagen</option>
+              <option value="value7">Honda</option>
             </select>
           </li>
         </ul>
-        <button type="button">40 cars</button>
+        <button type="button" class="filter-btn">40 cars</button>
       </div>
-      <div>
-        <div>
-          <label for="">
+      <div class="sort-section">
+        <div class="check">
+          <label for="" class="label-text">
             <input type="checkbox" id="" name="" value="">
             Instantly available vehicles
           </label>
         </div>
-        <div>
-          <span>Sort by</span>
-
-          <span>Publication date (ascending)</span>
+        <div class="sort-by">
+          <span class="sort-by-title">Sort by</span>
+          <button type="button" class="sort-btn">
+            <svg class="icon-sort">
+              <use href="./icons/sprite.svg#sort-by"></use>
+            </svg>
+          </button>
+          <span class="label-text">Publication date (ascending)</span>
         </div>
       </div>
-      <section>
-        <ul>
-          <li>
-            <div>
-              <img src="./pictures/car001.jpg" alt="car" width="295" height="200">
-              <div>
-                <span>2019</span>
-                <h4>Volkswagen Tiguan</h4>
+      <section class="card-section">
+        <ul class="card-list">
+          <li class="card-item">
+            <div class="card-thumb">
+              <img src="./pictures/car001.jpg" alt="car" class="card-pic" width="295" height="200">
+              <div class="card-top">
+                <span class="card-date">2019</span>
+                <h4 class="card-title">Volkswagen Tiguan</h4>
               </div>
-              <div>
-                <span>19,855 km</span>
-                <span>Automatic</span>
-                <span>Diesel</span>
-              </div>
-              <span>$34,888</span>
+              <ul class="card-info">
+                <li class="info-item"><span class="info-detail">19,855 km</span></li>
+                <li class="info-item"><span class="info-detail">Automatic</span></li>
+                <li class="info-item"><span class="info-detail">Diesel</span></li>
+              </ul>
+              <span class="card-price">$34,888</span>
             </div>
           </li>
-          <li>
-            <div>
-              <img src="./pictures/car002.jpg" alt="car" width="295" height="200">
-              <div>
-                <span>2014</span>
-                <h4>Toyota Highlander XLE</h4>
+          <li class="card-item">
+            <div class="card-thumb">
+              <img src="./pictures/car002.jpg" alt="car" class="card-pic" width="295" height="200">
+              <div class="card-top">
+                <span class="card-date">2014</span>
+                <h4 class="card-title">Toyota Highlander XLE</h4>
               </div>
-              <div>
-                <span>69,000 km</span>
-                <span>Automatic</span>
-                <span>Gas</span>
-              </div>
-              <span>$27,875</span>
+              <ul class="card-info">
+                <li class="info-item"><span class="info-detail">69,000 km</span></li>
+                <li class="info-item"><span class="info-detail">Automatic</span></li>
+                <li class="info-item"><span class="info-detail">Gas</span></li>
+              </ul>
+              <span class="card-price">$27,875</span>
             </div>
           </li>
-          <li>
-            <div>
-              <img src="./pictures/car003.jpg" alt="car" width="295" height="200">
-              <div>
-                <span>2017</span>
-                <h4>Lexus RX 350 LUXURY</h4>
+          <li class="card-item">
+            <div class="card-thumb">
+              <img src="./pictures/car003.jpg" alt="car" class="card-pic" width="295" height="200">
+              <div class="card-top">
+                <span class="card-date">2017</span>
+                <h4 class="card-title">Lexus RX 350 LUXURY</h4>
               </div>
-              <div>
-                <span>39,850 km</span>
-                <span>Automatic</span>
-                <span>Gas</span>
-              </div>
-              <span>$38,775</span>
+              <ul class="card-info">
+                <li class="info-item"><span class="info-detail">39,850 km</span></li>
+                <li class="info-item"><span class="info-detail">Automatic</span></li>
+                <li class="info-item"><span class="info-detail">Gas</span></li>
+              </ul>
+              <span class="card-price">$38,775</span>
             </div>
           </li>
-          <li>
-            <div>
-              <img src="./pictures/car004.jpg" alt="car" width="295" height="200">
-              <div>
-                <span>2016</span>
-                <h4>Toyota Highlander LE A...</h4>
+          <li class="card-item">
+            <div class="card-thumb">
+              <img src="./pictures/car004.jpg" alt="car" class="card-pic" width="295" height="200">
+              <div class="card-top">
+                <span class="card-date">2016</span>
+                <h4 class="card-title">Toyota Highlander LE A...</h4>
               </div>
-              <div>
-                <span>104,000 km</span>
-                <span>Automatic</span>
-                <span>Gas</span>
-              </div>
-              <span>$23,728</span>
+              <ul class="card-info">
+                <li class="info-item"><span class="info-detail">104,000 km</span></li>
+                <li class="info-item"><span class="info-detail">Automatic</span></li>
+                <li class="info-item"><span class="info-detail">Gas</span></li>
+              </ul>
+              <span class="card-price">$23,728</span>
             </div>
           </li>
-          <li>
-            <div>
-              <img src="./pictures/car005.jpg" alt="car" width="295" height="200">
-              <div>
-                <span>2017</span>
-                <h4>Hyundai Elantra</h4>
+          <li class="card-item">
+            <div class="card-thumb">
+              <img src="./pictures/car005.jpg" alt="car" class="card-pic" width="295" height="200">
+              <div class="card-top">
+                <span class="card-date">2017</span>
+                <h4 class="card-title">Hyundai Elantra</h4>
               </div>
-              <div>
-                <span>95,000 km</span>
-                <span>Automatic</span>
-                <span>Gas</span>
-              </div>
-              <span>$11,788</span>
+              <ul class="card-info">
+                <li class="info-item"><span class="info-detail">95,000 km</span></li>
+                <li class="info-item"><span class="info-detail">Automatic</span></li>
+                <li class="info-item"><span class="info-detail">Gas</span></li>
+              </ul>
+              <span class="card-price">$11,788</span>
             </div>
           </li>
-          <li>
-            <div>
-              <img src="./pictures/car006.jpg" alt="car" width="295" height="200">
-              <div>
-                <span>2016</span>
-                <h4>Mercedes-Benz GLE-Cl...</h4>
+          <li class="card-item">
+            <div class="card-thumb">
+              <img src="./pictures/car006.jpg" alt="car" class="card-pic" width="295" height="200">
+              <div class="card-top">
+                <span class="card-date">2016</span>
+                <h4 class="card-title">Mercedes-Benz GLE-Cl...</h4>
               </div>
-              <div>
-                <span>59,800 km</span>
-                <span>Automatic</span>
-                <span>Diesel</span>
-              </div>
-              <span>$38,878</span>
+              <ul class="card-info">
+                <li class="info-item"><span class="info-detail">59,800 km</span></li>
+                <li class="info-item"><span class="info-detail">Automatic</span></li>
+                <li class="info-item"><span class="info-detail">Diesel</span></li>
+              </ul>
+              <span class="card-price">$38,878</span>
             </div>
           </li>
-          <li>
-            <div>
-              <img src="./pictures/car007.jpg" alt="car" width="295" height="200">
-              <div>
-                <span>2015</span>
-                <h4>Toyota Venza AWD XLE...</h4>
+          <li class="card-item">
+            <div class="card-thumb">
+              <img src="./pictures/car007.jpg" alt="car" class="card-pic" width="295" height="200">
+              <div class="card-top">
+                <span class="card-date">2015</span>
+                <h4 class="card-title">Toyota Venza AWD XLE...</h4>
               </div>
-              <div>
-                <span>99,000 km</span>
-                <span>Automatic</span>
-                <span>Gas</span>
-              </div>
-              <span>$18,620</span>
+              <ul class="card-info">
+                <li class="info-item"><span class="info-detail">99,000 km</span></li>
+                <li class="info-item"><span class="info-detail">Automatic</span></li>
+                <li class="info-item"><span class="info-detail">Gas</span></li>
+              </ul>
+              <span class="card-price">$18,620</span>
             </div>
           </li>
-          <li>
-            <div>
-              <img src="./pictures/car008.jpg" alt="car" width="295" height="200">
-              <div>
-                <span>2016</span>
-                <h4>Lexus RX 350 F-SPORT</h4>
+          <li class="card-item">
+            <div class="card-thumb">
+              <img src="./pictures/car008.jpg" alt="car" class="card-pic" width="295" height="200">
+              <div class="card-top">
+                <span class="card-date">2016</span>
+                <h4 class="card-title">Lexus RX 350 F-SPORT</h4>
               </div>
-              <div>
-                <span>86,000 km</span>
-                <span>Automatic</span>
-                <span>Gas</span>
-              </div>
-              <span>$34,888</span>
+              <ul class="card-info">
+                <li class="info-item"><span class="info-detail">86,000 km</span></li>
+                <li class="info-item"><span class="info-detail">Automatic</span></li>
+                <li class="info-item"><span class="info-detail">Gas</span></li>
+              </ul>
+              <span class="card-price">$34,888</span>
             </div>
           </li>
-          <li>
-            <div>
-              <img src="./pictures/car001.jpg" alt="car" width="295" height="200">
-              <div>
-                <span>2019</span>
-                <h4>Volkswagen Tiguan</h4>
+          <li class="card-item">
+            <div class="card-thumb">
+              <img src="./pictures/car001.jpg" alt="car" class="card-pic" width="295" height="200">
+              <div class="card-top">
+                <span class="card-date">2019</span>
+                <h4 class="card-title">Volkswagen Tiguan</h4>
               </div>
-              <div>
-                <span>19,855 km</span>
-                <span>Automatic</span>
-                <span>Diesel</span>
-              </div>
-              <span>$34,888</span>
+              <ul class="card-info">
+                <li class="info-item"><span class="info-detail">19,855 km</span></li>
+                <li class="info-item"><span class="info-detail">Automatic</span></li>
+                <li class="info-item"><span class="info-detail">Diesel</span></li>
+              </ul>
+              <span class="card-price">$34,888</span>
             </div>
           </li>
-          <li>
-            <div>
-              <img src="./pictures/car002.jpg" alt="car" width="295" height="200">
-              <div>
-                <span>2014</span>
-                <h4>Toyota Highlander XLE</h4>
+          <li class="card-item">
+            <div class="card-thumb">
+              <img src="./pictures/car002.jpg" alt="car" class="card-pic" width="295" height="200">
+              <div class="card-top">
+                <span class="card-date">2014</span>
+                <h4 class="card-title">Toyota Highlander XLE</h4>
               </div>
-              <div>
-                <span>69,000 km</span>
-                <span>Automatic</span>
-                <span>Gas</span>
-              </div>
-              <span>$27,875</span>
+              <ul class="card-info">
+                <li class="info-item"><span class="info-detail">69,000 km</span></li>
+                <li class="info-item"><span class="info-detail">Automatic</span></li>
+                <li class="info-item"><span class="info-detail">Gas</span></li>
+              </ul>
+              <span class="card-price">$27,875</span>
             </div>
           </li>
-          <li>
-            <div>
-              <img src="./pictures/car003.jpg" alt="car" width="295" height="200">
-              <div>
-                <span>2017</span>
-                <h4>Lexus RX 350 LUXURY</h4>
+          <li class="card-item">
+            <div class="card-thumb">
+              <img src="./pictures/car003.jpg" alt="car" class="card-pic" width="295" height="200">
+              <div class="card-top">
+                <span class="card-date">2017</span>
+                <h4 class="card-title">Lexus RX 350 LUXURY</h4>
               </div>
-              <div>
-                <span>39,850 km</span>
-                <span>Automatic</span>
-                <span>Gas</span>
-              </div>
-              <span>$38,775</span>
+              <ul class="card-info">
+                <li class="info-item"><span class="info-detail">39,850 km</span></li>
+                <li class="info-item"><span class="info-detail">Automatic</span></li>
+                <li class="info-item"><span class="info-detail">Gas</span></li>
+              </ul>
+              <span class="card-price">$38,775</span>
             </div>
           </li>
-          <li>
-            <div>
-              <img src="./pictures/car004.jpg" alt="car" width="295" height="200">
-              <div>
-                <span>2016</span>
-                <h4>Toyota Highlander LE A...</h4>
+          <li class="card-item">
+            <div class="card-thumb">
+              <img src="./pictures/car004.jpg" alt="car" class="card-pic" width="295" height="200">
+              <div class="card-top">
+                <span class="card-date">2016</span>
+                <h4 class="card-title">Toyota Highlander LE A...</h4>
               </div>
-              <div>
-                <span>104,000 km</span>
-                <span>Automatic</span>
-                <span>Gas</span>
-              </div>
-              <span>$23,728</span>
+              <ul class="card-info">
+                <li class="info-item"><span class="info-detail">104,000 km</span></li>
+                <li class="info-item"><span class="info-detail">Automatic</span></li>
+                <li class="info-item"><span class="info-detail">Gas</span></li>
+              </ul>
+              <span class="card-price">$23,728</span>
             </div>
           </li>
-          <li>
-            <div>
-              <img src="./pictures/car001.jpg" alt="car" width="295" height="200">
-              <div>
-                <span>2019</span>
-                <h4>Volkswagen Tiguan</h4>
+          <li class="card-item">
+            <div class="card-thumb">
+              <img src="./pictures/car001.jpg" alt="car" class="card-pic" width="295" height="200">
+              <div class="card-top">
+                <span class="card-date">2019</span>
+                <h4 class="card-title">Volkswagen Tiguan</h4>
               </div>
-              <div>
-                <span>19,855 km</span>
-                <span>Automatic</span>
-                <span>Diesel</span>
-              </div>
-              <span>$34,888</span>
+              <ul class="card-info">
+                <li class="info-item"><span class="info-detail">19,855 km</span></li>
+                <li class="info-item"><span class="info-detail">Automatic</span></li>
+                <li class="info-item"><span class="info-detail">Diesel</span></li>
+              </ul>
+              <span class="card-price">$34,888</span>
             </div>
           </li>
-          <li>
-            <div>
-              <img src="./pictures/car002.jpg" alt="car" width="295" height="200">
-              <div>
-                <span>2014</span>
-                <h4>Toyota Highlander XLE</h4>
+          <li class="card-item">
+            <div class="card-thumb">
+              <img src="./pictures/car002.jpg" alt="car" class="card-pic" width="295" height="200">
+              <div class="card-top">
+                <span class="card-date">2014</span>
+                <h4 class="card-title">Toyota Highlander XLE</h4>
               </div>
-              <div>
-                <span>69,000 km</span>
-                <span>Automatic</span>
-                <span>Gas</span>
-              </div>
-              <span>$27,875</span>
+              <ul class="card-info">
+                <li class="info-item"><span class="info-detail">69,000 km</span></li>
+                <li class="info-item"><span class="info-detail">Automatic</span></li>
+                <li class="info-item"><span class="info-detail">Gas</span></li>
+              </ul>
+              <span class="card-price">$27,875</span>
             </div>
           </li>
-          <li>
-            <div>
-              <img src="./pictures/car003.jpg" alt="car" width="295" height="200">
-              <div>
-                <span>2017</span>
-                <h4>Lexus RX 350 LUXURY</h4>
+          <li class="card-item">
+            <div class="card-thumb">
+              <img src="./pictures/car003.jpg" alt="car" class="card-pic" width="295" height="200">
+              <div class="card-top">
+                <span class="card-date">2017</span>
+                <h4 class="card-title">Lexus RX 350 LUXURY</h4>
               </div>
-              <div>
-                <span>39,850 km</span>
-                <span>Automatic</span>
-                <span>Gas</span>
-              </div>
-              <span>$38,775</span>
+              <ul class="card-info">
+                <li class="info-item"><span class="info-detail">39,850 km</span></li>
+                <li class="info-item"><span class="info-detail">Automatic</span></li>
+                <li class="info-item"><span class="info-detail">Gas</span></li>
+              </ul>
+              <span class="card-price">$38,775</span>
             </div>
           </li>
-          <li>
-            <div>
-              <img src="./pictures/car004.jpg" alt="car" width="295" height="200">
-              <div>
-                <span>2016</span>
-                <h4>Toyota Highlander LE A...</h4>
+          <li class="card-item">
+            <div class="card-thumb">
+              <img src="./pictures/car004.jpg" alt="car" class="card-pic" width="295" height="200">
+              <div class="card-top">
+                <span class="card-date">2016</span>
+                <h4 class="card-title">Toyota Highlander LE A...</h4>
               </div>
-              <div>
-                <span>104,000 km</span>
-                <span>Automatic</span>
-                <span>Gas</span>
-              </div>
-              <span>$23,728</span>
+              <ul class="card-info">
+                <li class="info-item"><span class="info-detail">104,000 km</span></li>
+                <li class="info-item"><span class="info-detail">Automatic</span></li>
+                <li class="info-item"><span class="info-detail">Gas</span></li>
+              </ul>
+              <span class="card-price">$23,728</span>
             </div>
           </li>
-          <li>
-            <div>
-              <img src="./pictures/car005.jpg" alt="car" width="295" height="200">
-              <div>
-                <span>2017</span>
-                <h4>Hyundai Elantra</h4>
+          <li class="card-item">
+            <div class="card-thumb">
+              <img src="./pictures/car005.jpg" alt="car" class="card-pic" width="295" height="200">
+              <div class="card-top">
+                <span class="card-date">2017</span>
+                <h4 class="card-title">Hyundai Elantra</h4>
               </div>
-              <div>
-                <span>95,000 km</span>
-                <span>Automatic</span>
-                <span>Gas</span>
-              </div>
-              <span>$11,788</span>
+              <ul class="card-info">
+                <li class="info-item"><span class="info-detail">95,000 km</span></li>
+                <li class="info-item"><span class="info-detail">Automatic</span></li>
+                <li class="info-item"><span class="info-detail">Gas</span></li>
+              </ul>
+              <span class="card-price">$11,788</span>
             </div>
           </li>
-          <li>
-            <div>
-              <img src="./pictures/car006.jpg" alt="car" width="295" height="200">
-              <div>
-                <span>2016</span>
-                <h4>Mercedes-Benz GLE-Cl...</h4>
+          <li class="card-item">
+            <div class="card-thumb">
+              <img src="./pictures/car006.jpg" alt="car" class="card-pic" width="295" height="200">
+              <div class="card-top">
+                <span class="card-date">2016</span>
+                <h4 class="card-title">Mercedes-Benz GLE-Cl...</h4>
               </div>
-              <div>
-                <span>59,800 km</span>
-                <span>Automatic</span>
-                <span>Diesel</span>
-              </div>
-              <span>$38,878</span>
+              <ul class="card-info">
+                <li class="info-item"><span class="info-detail">59,800 km</span></li>
+                <li class="info-item"><span class="info-detail">Automatic</span></li>
+                <li class="info-item"><span class="info-detail">Diesel</span></li>
+              </ul>
+              <span class="card-price">$38,878</span>
             </div>
           </li>
-          <li>
-            <div>
-              <img src="./pictures/car009.jpg" alt="car" width="295" height="200">
-              <div>
-                <span>2015</span>
-                <h4>Toyota Venza AWD XLE...</h4>
+          <li class="card-item">
+            <div class="card-thumb">
+              <img src="./pictures/car009.jpg" alt="car" class="card-pic" width="295" height="200">
+              <div class="card-top">
+                <span class="card-date">2015</span>
+                <h4 class="card-title">Toyota Venza AWD XLE...</h4>
               </div>
-              <div>
-                <span>99,000 km</span>
-                <span>Automatic</span>
-                <span>Gas</span>
-              </div>
-              <span>$18,620</span>
+              <ul class="card-info">
+                <li class="info-item"><span class="info-detail">99,000 km</span></li>
+                <li class="info-item"><span class="info-detail">Automatic</span></li>
+                <li class="info-item"><span class="info-detail">Gas</span></li>
+              </ul>
+              <span class="card-price">$18,620</span>
             </div>
           </li>
-          <li>
-            <div>
-              <img src="./pictures/car008.jpg" alt="car" width="295" height="200">
-              <div>
-                <span>2016</span>
-                <h4>Lexus RX 350 F-SPORT</h4>
+          <li class="card-item">
+            <div class="card-thumb">
+              <img src="./pictures/car008.jpg" alt="car" class="card-pic" width="295" height="200">
+              <div class="card-top">
+                <span class="card-date">2016</span>
+                <h4 class="card-title">Lexus RX 350 F-SPORT</h4>
               </div>
-              <div>
-                <span>86,000 km</span>
-                <span>Automatic</span>
-                <span>Gas</span>
-              </div>
-              <span>$34,888</span>
+              <ul class="card-info">
+                <li class="info-item"><span class="info-detail">86,000 km</span></li>
+                <li class="info-item"><span class="info-detail">Automatic</span></li>
+                <li class="info-item"><span class="info-detail">Gas</span></li>
+              </ul>
+              <span class="card-price">$34,888</span>
             </div>
           </li>
-          <li>
-            <div>
-              <img src="./pictures/car001.jpg" alt="car" width="295" height="200">
-              <div>
-                <span>2019</span>
-                <h4>Volkswagen Tiguan</h4>
+          <li class="card-item">
+            <div class="card-thumb">
+              <img src="./pictures/car001.jpg" alt="car" class="card-pic" width="295" height="200">
+              <div class="card-top">
+                <span class="card-date">2019</span>
+                <h4 class="card-title">Volkswagen Tiguan</h4>
               </div>
-              <div>
-                <span>19,855 km</span>
-                <span>Automatic</span>
-                <span>Diesel</span>
-              </div>
-              <span>$34,888</span>
+              <ul class="card-info">
+                <li class="info-item"><span class="info-detail">19,855 km</span></li>
+                <li class="info-item"><span class="info-detail">Automatic</span></li>
+                <li class="info-item"><span class="info-detail">Diesel</span></li>
+              </ul>
+              <span class="card-price">$34,888</span>
             </div>
           </li>
-          <li>
-            <div>
-              <img src="./pictures/car002.jpg" alt="car" width="295" height="200">
-              <div>
-                <span>2014</span>
-                <h4>Toyota Highlander XLE</h4>
+          <li class="card-item">
+            <div class="card-thumb">
+              <img src="./pictures/car002.jpg" alt="car" class="card-pic" width="295" height="200">
+              <div class="card-top">
+                <span class="card-date">2014</span>
+                <h4 class="card-title">Toyota Highlander XLE</h4>
               </div>
-              <div>
-                <span>69,000 km</span>
-                <span>Automatic</span>
-                <span>Gas</span>
-              </div>
-              <span>$27,875</span>
+              <ul class="card-info">
+                <li class="info-item"><span class="info-detail">69,000 km</span></li>
+                <li class="info-item"><span class="info-detail">Automatic</span></li>
+                <li class="info-item"><span class="info-detail">Gas</span></li>
+              </ul>
+              <span class="card-price">$27,875</span>
             </div>
           </li>
         </ul>
       </section>
-      <section>
-        <div>
-          <h4>Haven't found a suitable vehicle?</h4>
-          <p>Sign up for our newsletter and be the first to know when we publish new vehicle offers.</p>
+    </div>
+    <section class="subscription">
+      <div class="container">
+        <div class="subscription-container">
+          <div class="subscription-paragraph">
+            <h4 class="subscription-title">Haven't found a suitable vehicle?</h4>
+            <p class="subscription-text">Sign up for our newsletter and be the first to know when we </br>publish new vehicle offers.
+            </p>
+          </div>
+          <form class="subscription-form">
+            <input type="text" class="subscription-input" placeholder="Enter your email">
+            <button type="submit" class="subscription-btn">Subscribe now</button>
+          </form>
         </div>
-        <form>
-          <input type="text" placeholder="Enter your email">
-          <button type="submit">Subscribe now</button>
-        </form>
-      </section>
-      <section>
-        <h2>popular questions</h2>
-        <ul>
-          <li>
-            <p>1. Scope</p><button type="button">+</button>
+      </div>
+    </section>
+    <section class="questions">
+      <div class="container">
+        <h2 class="questions-title">popular questions</h2>
+        <ul class="questions-list">
+          <li class="questions-item">
+            <p class="questions-text">1. Scope</p>
+            <button type="button" class="questions-btn">
+              <svg class="questions-icon">
+                <use href="./icons/sprite.svg#cross"></use>
+              </svg>
+            </button>
           </li>
-          <li>
-            <p>2. Vehicle characteristics</p><button type="button">+</button>
+          <li class="questions-item">
+            <p class="questions-text">2. Vehicle characteristics</p>
+            <button type="button" class="questions-btn">
+              <svg class="questions-icon">
+                <use href="./icons/sprite.svg#cross"></use>
+              </svg>
+            </button>
           </li>
-          <li>
-            <div>
-              <div>
-                <h5>3. Warranty / guarantee</h5>
-                <button type="button">-</button>
+          <li class="">
+            <div class="detailed-questions">
+              <div class="detailed-top">
+                <h5 class="detailed-title">3. Warranty / guarantee</h5>
+                <button type="button" class="detailed-btn">
+                  <svg class="questions-icon">
+                    <use href="./icons/sprite.svg#ellipsis"></use>
+                  </svg>
+                </button>
               </div>
-              <p>3.1 The statutory warranty is completely excluded to the extent permitted by law.</p>
-              <p>3.2 If the vehicle still has a current factory warranty, a sales representative (brand representative) of
+              <p class="detailed-text">3.1 The statutory warranty is completely excluded to the extent permitted by law.</p>
+              <p class="detailed-text">3.2 If the vehicle still has a current factory warranty, a sales representative (brand representative) of
                 the
                 manufacturer shall provide the services owed therein. If there is a factory warranty, the beginning of the
                 warranty for
@@ -478,54 +538,91 @@
                 the beginning of the warranty in the manufacturer's system or the contractually agreed beginning of the
                 warranty, if
                 any.</p>
-              <p>3.3 If there is a special warranty insurance for the vehicle, this will take the place of the material
+              <p class="detailed-text">3.3 If there is a special warranty insurance for the vehicle, this will take the place of the material
                 warranty
                 according to section 3.1 and replace it. In this case, the General Terms and Conditions of the respective
                 warranty
                 service provider apply.</p>
             </div>
           </li>
-          <li>
-            <p>4. Trade-in vehicle</p><button type="button">+</button>
+          <li class="questions-item">
+            <p class="questions-text">4. Trade-in vehicle</p>
+            <button type="button" class="questions-btn">
+              <svg class="questions-icon">
+                <use href="./icons/sprite.svg#cross"></use>
+              </svg>
+            </button>
           </li>
-          <li>
-            <p>5. Home Delivery</p><button type="button">+</button>
+          <li class="questions-item">
+            <p class="questions-text">5. Home Delivery</p>
+            <button type="button" class="questions-btn">
+              <svg class="questions-icon">
+                <use href="./icons/sprite.svg#cross"></use>
+              </svg>
+            </button>
           </li>
-          <li>
-            <p>6. Right of return</p><button type="button">+</button>
+          <li class="questions-item">
+            <p class="questions-text">6. Right of return</p>
+            <button type="button" class="questions-btn">
+              <svg class="questions-icon">
+                <use href="./icons/sprite.svg#cross"></use>
+              </svg>
+            </button>
           </li>
-          <li>
-            <p>7. Written form</p><button type="button">+</button>
+          <li class="questions-item">
+            <p class="questions-text">7. Written form</p>
+            <button type="button" class="questions-btn">
+              <svg class="questions-icon">
+                <use href="./icons/sprite.svg#cross"></use>
+              </svg>
+            </button>
           </li>
-          <li>
-            <p>8. Applicable law and place of jurisdiction</p><button type="button">+</button>
+          <li class="questions-item">
+            <p class="questions-text">8. Applicable law and place of jurisdiction</p>
+            <button type="button" class="questions-btn">
+              <svg class="questions-icon">
+                <use href="./icons/sprite.svg#cross"></use>
+              </svg>
+            </button>
           </li>
         </ul>
       </section>
     </div>
   </main>
   <footer>
-    <div class="container">
-      <a href="./index.html" class="logo">
+    <div class="container bottom">
+      <a href="./index.html" class="logo-footer">
         <img src="./icons/logo.svg" alt="Logo of site" width="191" height="48">
       </a>
-      <nav>
-        <ul>
-          <li>
-            <a href="/">Inventory</a>
+      <nav class="navigation-footer">
+        <ul class="navigation-list">
+          <li class="navigation-item">
+            <a href="/" class="navigation-link">Inventory</a>
           </li>
-          <li>
-            <a href="/">Financing</a>
+          <li class="navigation-item">
+            <a href="/" class="navigation-link">Financing</a>
           </li>
-          <li>
-            <a href="/">Contacts</a>
+          <li class="navigation-item">
+            <a href="/" class="navigation-link">Contacts</a>
           </li>
         </ul>
       </nav>
       <div>
-        <ul>
-          <li></li>
-          <li></li>
+        <ul class="social-list">
+          <li class="social-item">
+            <a href="https://www.facebook.com/">
+              <svg class="social-link">
+                <use href="./icons/sprite.svg#facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="https://www.instagram.com/">
+              <svg class="social-link">
+                <use href="./icons/sprite.svg#instagram"></use>
+              </svg>
+            </a>
+          </li>
         </ul>
       </div>
     </div>
