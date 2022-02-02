@@ -17,6 +17,7 @@
 }
 
 .card-thumb {
+  position: relative;
   padding-bottom: 35px;
 }
 
@@ -80,4 +81,85 @@
   line-height: 1.35;
 
   color: $Color-primary-100;
+}
+
+.info-item-sold:not(:last-child) {
+  margin-right: 8px;
+  padding-right: 8px;
+  border-right: 1px solid $Color-secondary-300;
+}
+
+.sold-text {
+  position: absolute;
+  top: 63px;
+  left: 82px;
+
+  font-family: $Secondary-text;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 75px;
+
+  color: $Color-secondary-500;
+}
+
+.card-date-sold {
+  margin-right: 8px;
+
+  font-family: $Secondary-text;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 1.47;
+
+  color: $Color-secondary-300;
+}
+
+.card-title-sold {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 1.35;
+
+  color: $Color-secondary-200;
+}
+
+.info-detail-sold {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 1.36;
+
+  color: $Color-secondary-300;
+}
+
+.card-price-sold {
+  padding-left: 20px;
+
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.35;
+
+  color: $Color-secondary-200;
+}
+
+.sticker {
+  position: absolute;
+  display: flex;
+  align-items: center;
+
+  padding-left: 20px;
+  width: 67px;
+  height: 24px;
+  left: 0px;
+  top: 176px;
+
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background: $Color-primary-100;
+}
+
+.sticker-text {
+  font-family: $Secondary-text;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.5;
+
+  color: $Color-secondary-500;
 }
