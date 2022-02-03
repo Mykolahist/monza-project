@@ -1,1 +1,1 @@
-console.log('Hello World!');
+import * as classes from './styles/main.scss';
