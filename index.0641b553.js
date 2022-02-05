@@ -519,8 +519,7 @@ function hmrAcceptRun(bundle, id) {
 }
 
 },{}],"bNKaB":[function(require,module,exports) {
-var _mainScss = require("./styles/main.scss");
 
-},{"./styles/main.scss":"bo7w8"}],"bo7w8":[function() {},{}]},["6IXwR","bNKaB"], "bNKaB", "parcelRequire89f3")
+},{}]},["6IXwR","bNKaB"], "bNKaB", "parcelRequire89f3")
 
 //# sourceMappingURL=index.0641b553.js.map
