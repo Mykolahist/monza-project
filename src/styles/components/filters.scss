@@ -78,14 +78,6 @@ main {
   margin-bottom: 23px;
 }
 
-.label-text {
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 1.33;
-
-  color: $Color-secondary-200;
-}
-
 .sort-by {
   display: flex;
   align-items: center;
@@ -100,17 +92,25 @@ main {
   color: $Color-primary-100;
 }
 
-.sort-btn {
+.sort-by-label {
   margin-right: 8px;
   width: 13px;
   height: 13px;
-
-  border: none;
-  background-color: rgba(0, 0, 0, 0);
-  cursor: pointer;
 }
 
 .icon-sort {
   width: 13px;
   height: 13px;
+}
+
+.label-text {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.33;
+
+  color: $Color-secondary-200;
+
+  &:hover {
+    color: $Color-primary-300;
+  }
 }
