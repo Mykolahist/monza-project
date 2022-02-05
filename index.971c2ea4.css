@@ -254,12 +254,6 @@ main {
   justify-content: space-between;
   margin-bottom: 23px;
 }
-.label-text {
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 1.33;
-  color: #8d8d8d;
-}
 .sort-by {
   display: flex;
   align-items: center;
@@ -271,17 +265,20 @@ main {
   line-height: 1.33;
   color: #000000;
 }
-.sort-btn {
+.sort-by-label {
   margin-right: 8px;
   width: 13px;
   height: 13px;
-  border: none;
-  background-color: rgba(0, 0, 0, 0);
-  cursor: pointer;
 }
 .icon-sort {
   width: 13px;
   height: 13px;
+}
+.label-text {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.33;
+  color: #8d8d8d;
 }
 .card-section {
   padding-bottom: 120px;
@@ -354,6 +351,10 @@ main {
   font-size: 20px;
   line-height: 1.35;
   color: #000000;
+}
+.sold-thumb {
+  position: relative;
+  padding-bottom: 35px;
 }
 .info-item-sold:not(:last-child) {
   margin-right: 8px;
@@ -468,7 +469,7 @@ main {
   color: #f8f8f8;
 }
 .subscription-btn {
-  padding: 14px 43px 16px 44px;
+  padding: 14px 41px 16px 42px;
   min-width: 190px;
   font-weight: 400;
   font-size: 15px;
