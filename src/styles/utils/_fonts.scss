@@ -1,0 +1,94 @@
+/* noto-sans-Light - latin */
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local(''),
+    /* Modern Browsers */ url('../fonts/NotoSans-Light.ttf') format('truetype');
+}
+/* noto-sans-Regular - latin */
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/noto-sans-v25-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local(''),
+    url('../fonts/noto-sans-v25-latin-regular.eot?#iefix')
+      format('embedded-opentype'),
+    /* IE6-IE8 */ url('../fonts/noto-sans-v25-latin-regular.woff2')
+      format('woff2'),
+    /* Super Modern Browsers */ url('../fonts/noto-sans-v25-latin-regular.woff')
+      format('woff'),
+    /* Modern Browsers */ url('../fonts/noto-sans-v25-latin-regular.ttf')
+      format('truetype'),
+    /* Safari, Android, iOS */
+      url('../fonts/noto-sans-v25-latin-regular.svg#NotoSans') format('svg'); /* Legacy iOS */
+}
+/* noto-sans-Medium - latin */
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 500;
+  src: local(''),
+    /* Modern Browsers */ url('../fonts/NotoSans-Medium.ttf') format('truetype');
+}
+/* noto-sans-SemiBold - latin */
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: local(''),
+    /* Modern Browsers */ url('../fonts/NotoSans-SemiBold.ttf')
+      format('truetype');
+}
+/* noto-sans-Bold - latin */
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/noto-sans-v25-latin-700.eot'); /* IE9 Compat Modes */
+  src: local(''),
+    url('../fonts/noto-sans-v25-latin-700.eot?#iefix')
+      format('embedded-opentype'),
+    /* IE6-IE8 */ url('../fonts/noto-sans-v25-latin-700.woff2') format('woff2'),
+    /* Super Modern Browsers */ url('../fonts/noto-sans-v25-latin-700.woff')
+      format('woff'),
+    /* Modern Browsers */ url('../fonts/noto-sans-v25-latin-700.ttf')
+      format('truetype'),
+    /* Safari, Android, iOS */
+      url('../fonts/noto-sans-v25-latin-700.svg#NotoSans') format('svg'); /* Legacy iOS */
+}
+/* poppins-regular - latin */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/poppins-v19-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local(''),
+    url('../fonts/poppins-v19-latin-regular.eot?#iefix')
+      format('embedded-opentype'),
+    /* IE6-IE8 */ url('../fonts/poppins-v19-latin-regular.woff2')
+      format('woff2'),
+    /* Super Modern Browsers */ url('../fonts/poppins-v19-latin-regular.woff')
+      format('woff'),
+    /* Modern Browsers */ url('../fonts/poppins-v19-latin-regular.ttf')
+      format('truetype'),
+    /* Safari, Android, iOS */
+      url('../fonts/poppins-v19-latin-regular.svg#Poppins') format('svg'); /* Legacy iOS */
+}
+/* poppins-Bold - latin */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/poppins-v19-latin-700.eot'); /* IE9 Compat Modes */
+  src: local(''),
+    url('../fonts/poppins-v19-latin-700.eot?#iefix') format('embedded-opentype'),
+    /* IE6-IE8 */ url('../fonts/poppins-v19-latin-700.woff2') format('woff2'),
+    /* Super Modern Browsers */ url('../fonts/poppins-v19-latin-700.woff')
+      format('woff'),
+    /* Modern Browsers */ url('../fonts/poppins-v19-latin-700.ttf')
+      format('truetype'),
+    /* Safari, Android, iOS */ url('../fonts/poppins-v19-latin-700.svg#Poppins')
+      format('svg'); /* Legacy iOS */
+}

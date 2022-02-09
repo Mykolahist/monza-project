@@ -1,0 +1,115 @@
+.overlay {
+  width: 100%;
+  height: 688px;
+  background-image: url(../pictures/hero.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.top {
+  display: flex;
+  align-items: center;
+
+  padding-top: 19px;
+  padding-bottom: 18px;
+}
+
+.logo {
+  margin-right: 711px;
+}
+
+.navigation {
+  margin-right: 40px;
+}
+
+.navigation-list {
+  display: flex;
+  align-items: center;
+}
+
+.navigation-item:not(:last-child) {
+  margin-right: 40px;
+}
+
+.navigation-link {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 1.33;
+
+  color: $Color-primary-200;
+}
+
+.social-list {
+  display: flex;
+  align-items: center;
+  height: 18px;
+}
+
+.social-item:not(:last-child) {
+  margin-right: 27px;
+}
+
+.social-link {
+  margin: 0;
+  padding: 0;
+  width: 18px;
+  height: 18px;
+
+  fill: $Color-primary-200;
+}
+
+.hero {
+  padding-top: 118px;
+  padding-bottom: 148px;
+}
+
+.hero-title {
+  margin-bottom: 32px;
+
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 1.36;
+
+  color: $Color-primary-200;
+}
+
+.hero-group {
+  display: flex;
+  margin-bottom: 72px;
+}
+
+.hero-text {
+  margin-right: 20px;
+  width: 295px;
+
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.33;
+
+  color: $Color-primary-200;
+}
+
+.hero-btn {
+  min-width: 296px;
+  padding: 11px 90px 14px 91px;
+
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.35;
+
+  color: $Color-primary-200;
+
+  border: 2px solid $Color-primary-200;
+  border-radius: 15px;
+  background-color: rgba(0, 0, 0, 0);
+  cursor: pointer;
+
+  &:hover {
+    transition: transitionFunc(color);
+    transition: transitionFunc(background-color);
+
+    color: $Color-primary-100;
+    background-color: $Color-primary-200;
+  }
+}
