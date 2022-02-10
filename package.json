@@ -2,8 +2,9 @@
   "name": "monza-project",
   "version": "1.0.0",
   "description": "",
+  "source": "src/index.html",
   "scripts": {
-    "dev": "parcel src/index.html",
+    "dev": "parcel src*/index.html",
     "build": "parcel build src/index.html --public-url /monza-project/",
     "deploy": "gh-pages -d dist",
     "predeploy": "npm run build"
