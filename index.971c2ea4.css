@@ -59,6 +59,12 @@
   src: local(""), url("poppins-v19-latin-700.05de4b79.eot#iefix") format("embedded-opentype"), url("poppins-v19-latin-700.c32b6f69.woff2") format("woff2"), url("poppins-v19-latin-700.a4d5acc7.woff") format("woff"), url("poppins-v19-latin-700.79192862.ttf") format("truetype"), url("poppins-v19-latin-700.17e6c446.svg#Poppins") format("svg");
   /* Legacy iOS */
 }
+.questions-top > p, .subscription-paragraph > p, .hero-group > p {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.33;
+  color: #f8f8f8;
+}
 html {
   box-sizing: border-box;
 }
@@ -167,13 +173,9 @@ a {
   display: flex;
   margin-bottom: 72px;
 }
-.hero-text {
+.hero-group > p {
   margin-right: 20px;
   width: 295px;
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 1.33;
-  color: #f8f8f8;
 }
 .hero-btn {
   min-width: 296px;
@@ -444,12 +446,6 @@ main {
   line-height: 1.36;
   color: #f8f8f8;
 }
-.subscription-text {
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 1.33;
-  color: #f8f8f8;
-}
 .subscription-form {
   white-space: nowrap;
 }
@@ -514,10 +510,8 @@ main {
 .new-container {
   display: none;
 }
-.questions-text {
+.questions-top > p {
   font-weight: 500;
-  font-size: 15px;
-  line-height: 1.33;
   color: #000000;
 }
 .questions-btn {
@@ -564,13 +558,13 @@ main {
   line-height: 1.33;
   color: #df4e3c;
 }
-.detailed-text {
+.detailed-questions > p {
   font-weight: 400;
   font-size: 13px;
   line-height: 1.5;
   color: #000000;
 }
-.detailed-text:not(:last-child) {
+.detailed-questions > p:not(:last-child) {
   margin-bottom: 8px;
 }
 footer {
