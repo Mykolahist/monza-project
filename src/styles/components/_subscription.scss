@@ -23,12 +23,8 @@
   color: $Color-primary-200;
 }
 
-.subscription-text {
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 1.33;
-
-  color: $Color-primary-200;
+.subscription-paragraph > p {
+  @extend %paragraph;
 }
 
 .subscription-form {

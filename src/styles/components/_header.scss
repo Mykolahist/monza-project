@@ -79,15 +79,11 @@
   margin-bottom: 72px;
 }
 
-.hero-text {
+.hero-group > p {
+  @extend %paragraph;
+
   margin-right: 20px;
   width: 295px;
-
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 1.33;
-
-  color: $Color-primary-200;
 }
 
 .hero-btn {
