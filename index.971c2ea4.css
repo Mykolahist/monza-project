@@ -501,6 +501,9 @@ main {
   margin: 0 auto;
   width: 820px;
 }
+.questions-item {
+  position: relative;
+}
 .questions-top {
   display: flex;
   align-items: center;
@@ -516,12 +519,6 @@ main {
   font-size: 15px;
   line-height: 1.33;
   color: #000000;
-}
-.new-text {
-  font-weight: 700;
-  font-size: 15px;
-  line-height: 1.33;
-  color: #df4e3c;
 }
 .questions-btn {
   width: 11px;
@@ -542,6 +539,9 @@ main {
   height: 11px;
 }
 .detailed-questions {
+  position: relative;
+  z-index: 2;
+  top: -1px;
   display: none;
   padding: 24px 39px;
   width: 820px;
@@ -563,13 +563,6 @@ main {
   font-size: 15px;
   line-height: 1.33;
   color: #df4e3c;
-}
-.detailed-btn {
-  width: 11px;
-  height: 11px;
-  border: none;
-  background-color: rgba(0, 0, 0, 0);
-  cursor: pointer;
 }
 .detailed-text {
   font-weight: 400;

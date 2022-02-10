@@ -142,13 +142,13 @@
       this[globalName] = mainExports;
     }
   }
-})({"6IXwR":[function(require,module,exports) {
+})({"jlrnI":[function(require,module,exports) {
 "use strict";
 var HMR_HOST = null;
 var HMR_PORT = null;
 var HMR_SECURE = false;
 var HMR_ENV_HASH = "d6ea1d42532a7575";
-module.bundle.HMR_BUNDLE_ID = "fe4256060641b553";
+module.bundle.HMR_BUNDLE_ID = "dd0847f798b4fd28";
 function _toConsumableArray(arr) {
     return _arrayWithoutHoles(arr) || _iterableToArray(arr) || _unsupportedIterableToArray(arr) || _nonIterableSpread();
 }
@@ -518,12 +518,32 @@ function hmrAcceptRun(bundle, id) {
     acceptedAssets[id] = true;
 }
 
-},{}],"bNKaB":[function(require,module,exports) {
+},{}],"cZAcL":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 var _accordionMjs = require("./js/accordion.mjs");
 var _accordionMjsDefault = parcelHelpers.interopDefault(_accordionMjs);
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","./js/accordion.mjs":"9eaCk"}],"gkKU3":[function(require,module,exports) {
+},{"./js/accordion.mjs":"9eaCk","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"9eaCk":[function(require,module,exports) {
+const refs = {
+    accordionBtn: document.querySelectorAll('.questions-btn'),
+    closeBtn: document.querySelectorAll('.close-btn')
+};
+refs.accordionBtn.forEach((e)=>e.addEventListener('click', onOpenAccordion)
+);
+refs.closeBtn.forEach((e)=>e.addEventListener('click', onCloseAccordion)
+);
+function onOpenAccordion() {
+    this.parentNode.parentNode.querySelector('.questions-top').classList.add('new-container');
+    this.parentNode.parentNode.querySelector('.detailed-questions').classList.add('open');
+}
+function onCloseAccordion() {
+    const open = this.parentNode.parentNode.parentNode.querySelector('.detailed-questions');
+    const top = this.parentNode.parentNode.parentNode.querySelector('.questions-top');
+    if (open.classList.contains('open')) open.classList.remove('open');
+    if (top.classList.contains('new-container')) top.classList.remove('new-container');
+}
+
+},{}],"gkKU3":[function(require,module,exports) {
 exports.interopDefault = function(a) {
     return a && a.__esModule ? a : {
         default: a
@@ -553,31 +573,6 @@ exports.export = function(dest, destName, get) {
     });
 };
 
-},{}],"9eaCk":[function(require,module,exports) {
-const refs = {
-    // questionItem: document.querySelectorAll('.questions-top'),
-    accordionBtn: document.querySelectorAll('.questions-btn'),
-    // questionTop: document.querySelectorAll('.questions-top'),
-    // openText: document.querySelectorAll('.detailed-questions'),
-    closeBtn: document.querySelectorAll('.close-btn')
-};
-refs.accordionBtn.forEach((e)=>e.addEventListener('click', onOpenAccordion)
-);
-refs.closeBtn.forEach((e)=>e.addEventListener('click', onCloseAccordion)
-);
-function onOpenAccordion() {
-    // this.parentNode.parentNode.parentNode.parentNode.querySelector('.questions-item').classList.toggle('new-item');
-    this.parentNode.parentNode.parentNode.parentNode.querySelector('.questions-top').classList.add('new-container');
-    this.parentNode.parentNode.parentNode.parentNode.querySelector('.detailed-questions').classList.add('open');
-// this.parentNode.parentNode.parentNode.parentNode.querySelector('.questions-text').classList.toggle('new-text');
-}
-function onCloseAccordion() {
-    const open = this.parentNode.parentNode.parentNode.parentNode.querySelector('.detailed-questions');
-    const top = this.parentNode.parentNode.parentNode.parentNode.querySelector('.questions-top');
-    if (open.classList.contains('open')) open.classList.remove('open');
-    if (top.classList.contains('new-container')) top.classList.remove('new-container');
-}
+},{}]},["jlrnI","cZAcL"], "cZAcL", "parcelRequire89f3")
 
-},{}]},["6IXwR","bNKaB"], "bNKaB", "parcelRequire89f3")
-
-//# sourceMappingURL=index.0641b553.js.map
+//# sourceMappingURL=index.98b4fd28.js.map
